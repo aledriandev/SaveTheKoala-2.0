@@ -1,0 +1,178 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+body{
+	box-sizing: border-box;
+}
+
+
+header{
+	background-image: url('../img/portada.jpg');
+	width: 100%;
+	height: 600px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+header nav{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 70px;
+	background-color: transparent;
+	padding:  0;
+}
+
+header nav ul{
+	line-height: 70px;
+	text-align: right;
+	padding-right: 80px;
+}
+
+header nav h1{
+	margin: 0;
+	margin-left: 30px;
+	line-height: 70px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+#koala{
+	padding: 200px 0;
+}
+
+img{
+	width: 100%;
+}
+
+
+#information{
+	padding: 100px 0;
+	background-color: white;
+}
+
+.pad-section{
+	padding-top: 120px;
+}
+
+#information p>b, #information p{
+	color: #02028c;
+}
+
+#information h1, #information h3{
+	color: #A89F68;
+}
+
+
+#easy-help{
+	padding: 100px 0;
+	background-color: #A89F68;
+	color: white;
+}
+
+#easy-help h2{
+	color: #41521F;
+}
+
+#easy-help img{
+	border: 10px solid white;
+	border-radius: 5px;
+}
+
+#help-koalas{
+	padding: 50px 0;
+	background-image: url('../img/all.jpg');
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.text-center-help{
+	position: absolute;
+	left: 50%;
+}
+
+#can-help{
+	color: #A89F68;
+	padding: 50px 0;
+}
+
+#can-help p{
+	color: #02028c;
+}
+
+#can-help i{
+	font-size: 500%;
+	padding: 50px;
+
+}
+
+#donate{
+	padding: 80px 0;
+	background-color: #A89F68;
+	color: white;
+}
+
+.txt-white{
+	color: white;
+}
+
+.big-text{
+	font-size: 500%;
+	color: white;
+}
+
+.medium-text{
+	font-size: 50%;
+	color: white;
+}
+
+.small-text{
+	font-size: 20%;
+	color: white;
+}
+
+#donate p{
+	color: #02028c;
+}
+
+#donate h2{
+	color: #41521F;
+}
+
+#donate a{
+	margin: 10px;
+}
+
+hr{
+	margin-top: -0.5px;
+	/margin-bottom: -0.5px;
+}
+
+footer{
+	padding: 50px 0;
+	background-color: #41521F;
+	color: white;
+}
+
+/*MODAL*/
+.modal-title{
+	color: black;
+}
+
+#carrusel{
+
+}
+
+button{
+	margin: 20px;
+}
