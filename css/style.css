@@ -43,14 +43,28 @@ nav ul li a{
 	color: white;
 }
 
+nav ul li a: hover{
+	background-color: white; 
+	color: #1c1b1b;
+}
+
+header a>h3{
+	color: white;
+}
+
+
+
 #koala{
-	padding: 200px 0;
+	padding: 150px 10px;
 }
 
 img{
 	width: 100%;
 }
 
+.color-white{
+	background-color: 	white;
+}
 
 #information{
 	padding: 100px 0;
@@ -62,7 +76,7 @@ img{
 }
 
 #information p>b, #information p{
-	color: #02028c;
+	color: #1c1b1b;
 }
 
 #information h1, #information h3{
@@ -101,13 +115,21 @@ img{
 	left: 50%;
 }
 
+@media (max-width: 480px) {
+	.text-center-help{
+		position: absolute;
+		left: 10px;
+		text-shadow: 5px 5px 5px #000;
+	}
+}
+
 #can-help{
 	color: #A89F68;
 	padding: 50px 0;
 }
 
 #can-help p{
-	color: #02028c;
+	color: #1c1b1b;
 }
 
 #can-help i{
@@ -120,6 +142,10 @@ img{
 	padding: 80px 0;
 	background-color: #A89F68;
 	color: white;
+}
+
+#donate .col-md-4{
+	margin-top: 20px;
 }
 
 .txt-white{
@@ -142,7 +168,7 @@ img{
 }
 
 #donate p{
-	color: #02028c;
+	color: #1c1b1b;
 }
 
 #donate h2{
@@ -164,13 +190,30 @@ footer{
 	color: white;
 }
 
+footer p>b, footer a, footer .color-vClaro{
+	color: #A89F68;
+}
+
 /*MODAL*/
 .modal-title{
 	color: black;
 }
 
 #carrusel{
+	padding: 30px 30px;
+	background-color: #41521F; 
+}
 
+#carrusel h2{
+	color: white;
+	padding: 10px;
+}
+
+
+@media (max-width: 480px) {
+	#carrusel h2{
+		font-size: 150%;
+	}
 }
 
 button{
